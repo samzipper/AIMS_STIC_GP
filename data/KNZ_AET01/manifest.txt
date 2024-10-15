@@ -1,0 +1,5 @@
+Manifest file for knb-lter-knz.94.10.zip created on Tue Oct 15 13:20:58 UTC 2024
+AET011.csv (143335 bytes)
+knb-lter-knz.94.10.xml (20063 bytes)
+knb-lter-knz.94.10.txt (10815 bytes)
+knb-lter-knz.94.10.report.xml (29696 bytes)

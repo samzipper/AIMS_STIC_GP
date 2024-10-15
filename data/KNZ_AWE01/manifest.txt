@@ -1,0 +1,6 @@
+Manifest file for knb-lter-knz.14.23.zip created on Tue Oct 15 13:25:01 UTC 2024
+AWE011.csv (24150796 bytes)
+AWE012.csv (1153368 bytes)
+knb-lter-knz.14.23.xml (45176 bytes)
+knb-lter-knz.14.23.txt (25063 bytes)
+knb-lter-knz.14.23.report.xml (48500 bytes)

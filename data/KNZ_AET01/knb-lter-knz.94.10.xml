@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-knz.94.10"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0    https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+   <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+      <allow>
+         <principal>uid=KNZ,o=LTER,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset>
+      <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/dfc1aee9624b8cf4ba68b1451093e007</alternateIdentifier><shortName>AET01</shortName>
+      <title>AET01 Konza prairie grass reference evapotranspiration</title>
+      <creator>
+         <individualName>
+            <givenName>Trisha</givenName>
+            <surName>Moore</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>043-C Seaton Hall, Biological and Agricultural Engineering, Kansas State University</deliveryPoint>
+            <city>Manhattan</city>
+            <administrativeArea>KS</administrativeArea>
+            <postalCode>66506</postalCode>
+            <country>US</country>
+         </address>
+         <phone
+          phonetype="voice">785-532-2911</phone>
+         <electronicMailAddress>tlcmoore@ksu.edu</electronicMailAddress>
+      </creator>
+      <metadataProvider>
+         <organizationName>Konza LTER</organizationName>
+         <onlineUrl>http://www.konza.ksu.edu/</onlineUrl>
+      </metadataProvider>
+      <pubDate>2024-01-10</pubDate>
+      <abstract>
+         <section>
+            <para>Estimated evapotranspiration from a hypothetical short grass with a height of 0.12 m, a surface resistance of 70 s m-1, and an albedo of 0.23 (no water stress). Dataset contains daily total estimated evapotranspiration.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>Climate/Hydrology</keyword>
+         <keywordThesaurus>Core Areas</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Abiotic</keyword>
+         <keywordThesaurus>Section</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Atmospheric Processes</keyword>
+         <keyword>Evapotranspiration</keyword>
+         <keyword>Hydrologic Processes</keyword>
+         <keyword>LTER-KNZ</keyword>
+         <keyword>Konza Prairie</keyword>
+         <keyword>Konza Prairie Biological Station</keyword>
+         <keyword>Physiological Processes</keyword>
+         <keyword>Respiration</keyword>
+         <keyword>precipitation</keyword>
+         <keywordThesaurus>Station Keywords</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <title>Data Policies</title>
+            <para>Data Use Agreements: The Intellectual Rights within the metadata associated with each KNZ data set determines the exact data and metadata use agreement between the data user and the KNZ LTER site. KNZ LTER data and metadata may be released under the license: CC BY - Attribution (https://creativecommons.org/licenses/by/4.0/). This license lets others distribute, remix, tweak, and build upon KNZ work (even commercially), as long as the KNZ program is credited for the original creation. Alternatively, some KNZ LTER data and metadata may be released into the public domain: CC0 - No Rights Reserved (https://creativecommons.org/share-your-work/public-domain/cc0/). CC0 states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. In either case, users of KNZ data are referred to the following guidelines: "The consumer of these data ("Data User" herein) has an ethical obligation to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or coauthorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you".</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url
+      function="information">http://lter.konza.ksu.edu/content/aet01-konza-prairie-grass-reference-evapotranspiration</url>
+         </online>
+      </distribution>
+      <distribution
+      id="10.6073/pasta/dfc1aee9624b8cf4ba68b1451093e007" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+        function="information">https://doi.org/10.6073/pasta/dfc1aee9624b8cf4ba68b1451093e007</url></online></distribution><coverage>
+         <geographicCoverage>
+            <geographicDescription>Konza Prairie Biological Station (KPBS) is located on a 3,487 hectare native tallgrass prairie preserve jointly owned by The Nature Conservancy and Kansas State University. The KPBS is located in the Flint Hills of northeastern Kansas (39°05’ N, 96°35’ W), a grassland region of steep-slopes overlain by shallow limestone soils unsuitable for cultivation.</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-96.5833</westBoundingCoordinate>
+               <eastBoundingCoordinate>-96.5833</eastBoundingCoordinate>
+               <northBoundingCoordinate>39.0833</northBoundingCoordinate>
+               <southBoundingCoordinate>39.0833</southBoundingCoordinate>
+               <boundingAltitudes>
+                  <altitudeMinimum>397</altitudeMinimum>
+                  <altitudeMaximum>397</altitudeMaximum>
+                  <altitudeUnits>meter</altitudeUnits>
+               </boundingAltitudes>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>2000-10-16</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2023-12-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <maintenance>
+         <description>
+            <para>ongoing</para>
+         </description>
+      </maintenance>
+      <contact>
+         <individualName>
+            <givenName>Jeffrey</givenName>
+            <surName>Taylor</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+            <city>Manhattan</city>
+            <administrativeArea>KS</administrativeArea>
+            <postalCode>66506</postalCode>
+            <country>US</country>
+         </address>
+         <phone
+        phonetype="voice">785-532-7762</phone>
+         <phone
+        phonetype="facsimile">785-532-6615</phone>
+         <electronicMailAddress>jht@ksu.edu</electronicMailAddress>
+      </contact>
+      <contact>
+         <individualName>
+            <givenName>Konza</givenName>
+            <surName>LTER</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>Division of Biology</deliveryPoint>
+            <city>Manhattan</city>
+            <administrativeArea>KS</administrativeArea>
+            <postalCode>66506</postalCode>
+            <country>US</country>
+         </address>
+         <phone
+        phonetype="voice">785-532-6729</phone>
+         <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+         <onlineUrl>http://lter.konza.ksu.edu</onlineUrl>
+      </contact>
+      <publisher>
+         <organizationName>Environmental Data Initiative</organizationName>
+         <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+         <onlineUrl>https://edirepository.org</onlineUrl>
+         <userId
+      directory="https://ror.org">0330j0z60</userId>
+      </publisher>
+      <pubPlace>Environmental Data Initiative</pubPlace>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>Location of Sampling Stations: Headquarters Weather Station Frequency of Sampling: Hourly Variable Measured: Grass Reference Evapotranspiration Methods: This data is derived from LTER dataset AWE01. For instrumentation and field methods see the AWE01 Methods Manual entry. For additional metadata information see: http://lter.konza.ksu.edu/sites/default/files/DC.pdf For additional methods information see: http://lter.konza.ksu.edu/sites/default/files/MM.pdf</para>
+               </section>
+            </description>
+         </methodStep>
+      </methods>
+      <project>
+         <title>LTER: Manipulating drivers to assess grassland resilience</title>
+         <personnel>
+            <individualName>
+               <givenName>Jesse</givenName>
+               <surName>Nippert</surName>
+            </individualName>
+            <role>Principal Investigator</role>
+         </personnel>
+         <funding>NSF: DEB-2025849</funding>
+         <relatedProject>
+            <title>LTER: Long-Term Research on Grassland Dynamics- Assessing Mechanisms of Sensitivity and Resilience to Global Change</title>
+            <personnel>
+               <individualName>
+                  <givenName>Jesse</givenName>
+                  <surName>Nippert</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <personnel>
+               <individualName>
+                  <givenName>John</givenName>
+                  <surName>Blair</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-1440484</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>Konza Prairie LTER VI: Grassland Dynamics and Long-Term Trajectories of Change</title>
+            <personnel>
+               <individualName>
+                  <givenName>John</givenName>
+                  <surName>Blair</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-0823341</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>Konza Prairie LTER V: Long-Term Research on Grassland Dynamics and Global Change</title>
+            <personnel>
+               <individualName>
+                  <givenName>John</givenName>
+                  <surName>Blair</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-0218210</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>Long-Term Ecological Research in Tallgrass Prairie: The Konza Prairie LTER Program</title>
+            <personnel>
+               <individualName>
+                  <givenName>Alan</givenName>
+                  <surName>Knapp</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-9632851</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>Fire, Grazing, and Climatic Interactions in Tallgrass Prairie</title>
+            <personnel>
+               <individualName>
+                  <givenName>Alan</givenName>
+                  <surName>Knapp</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-9011662</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>The Role of Fire and Other Disturbances in Determining Ecosystem Processes and Patterns in the Konza Prairie, Kansas</title>
+            <personnel>
+               <individualName>
+                  <givenName>Donald</givenName>
+                  <surName>Kaufman</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-8514327</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>Long-Term Ecological Research in Tallgrass Prairie</title>
+            <personnel>
+               <individualName>
+                  <givenName>Richard</givenName>
+                  <surName>Marzolf</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-8012166</funding>
+         </relatedProject>
+      </project>
+      <dataTable
+      id="fdcd5770ad4dc38ea4efcfe224640a88" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>AET011</entityName>
+         <entityDescription>This record type contains daily total estimated evapotranspiration.</entityDescription>
+         <physical>
+            <objectName>AET011.csv</objectName>
+            <size>143335</size>
+            <authentication
+          method="MD5">4bc5769251a3196202a54ff4d6c5a2b6</authentication>
+            <authentication
+              method="SHA-1">94908dcbb804cb46d4b8c9b513515ab655d319da</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+        function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-knz/94/10/fdcd5770ad4dc38ea4efcfe224640a88</url>
+               </online>
+            </distribution>
+         </physical>
+         <coverage>
+            <temporalCoverage>
+               <rangeOfDates>
+                  <beginDate>
+                     <calendarDate>2000-01-03</calendarDate>
+                  </beginDate>
+                  <endDate>
+                     <calendarDate>2023-12-31</calendarDate>
+                  </endDate>
+               </rangeOfDates>
+            </temporalCoverage>
+         </coverage>
+         <methods>
+            <methodStep>
+               <description>
+                  <section>
+                     <para>
+                        <literalLayout>For additional metadata information see: http://lter.konza.ksu.edu/sites/default/files/DC.pdf For additional methods information see: http://lter.konza.ksu.edu/sites/default/files/MM.pdf</literalLayout>
+                     </para>
+                  </section>
+               </description>
+            </methodStep>
+         </methods>
+         <attributeList>
+            <attribute>
+               <attributeName>RecYear</attributeName>
+               <attributeLabel>RecYear</attributeLabel>
+               <attributeDefinition>Year of sample</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>Year (YYYY)</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RecMonth</attributeName>
+               <attributeLabel>RecMonth</attributeLabel>
+               <attributeDefinition>Month of sample</attributeDefinition>
+               <storageType>date</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RecDay</attributeName>
+               <attributeLabel>RecDay</attributeLabel>
+               <attributeDefinition>Day of sample</attributeDefinition>
+               <storageType>date</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>DailyET</attributeName>
+               <attributeLabel>DailyET</attributeLabel>
+               <attributeDefinition>Eaily evapotranspiration</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>Blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>EstimET</attributeName>
+               <attributeLabel>EstimET</attributeLabel>
+               <attributeDefinition>Estimated evapotranspiration for missing daily values</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.1</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>Blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>8449</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <stmml:unitList
+          xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0          https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+            <stmml:unit id="Year (YYYY)">
+               <stmml:description/>
+            </stmml:unit>
+         </stmml:unitList>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,342 @@
+
+   
+      
+         uid=KNZ,o=LTER,dc=ecoinformatics,dc=org
+         all
+      
+      
+         public
+         read
+      
+   
+   
+      doi:10.6073/pasta/dfc1aee9624b8cf4ba68b1451093e007AET01
+      AET01 Konza prairie grass reference evapotranspiration
+      
+         Trisha Moore
+         			043-C Seaton Hall, Biological and Agricultural Engineering, Kansas State University
+			Manhattan, KS 66506  US
+         785-532-2911
+         tlcmoore@ksu.edu
+      
+      
+         Konza LTER
+         http://www.konza.ksu.edu/
+      
+      2024-01-10
+      
+         
+            Estimated evapotranspiration from a hypothetical short grass with a height of 0.12 m, a surface resistance of 70 s m-1, and an albedo of 0.23 (no water stress). Dataset contains daily total estimated evapotranspiration.
+         
+      
+      
+         Climate/Hydrology
+         Core Areas
+      
+      
+         Abiotic
+         Section
+      
+      
+         Atmospheric Processes
+         Evapotranspiration
+         Hydrologic Processes
+         LTER-KNZ
+         Konza Prairie
+         Konza Prairie Biological Station
+         Physiological Processes
+         Respiration
+         precipitation
+         Station Keywords
+      
+      
+         
+            Data Policies
+            Data Use Agreements: The Intellectual Rights within the metadata associated with each KNZ data set determines the exact data and metadata use agreement between the data user and the KNZ LTER site. KNZ LTER data and metadata may be released under the license: CC BY - Attribution (https://creativecommons.org/licenses/by/4.0/). This license lets others distribute, remix, tweak, and build upon KNZ work (even commercially), as long as the KNZ program is credited for the original creation. Alternatively, some KNZ LTER data and metadata may be released into the public domain: CC0 - No Rights Reserved (https://creativecommons.org/share-your-work/public-domain/cc0/). CC0 states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. In either case, users of KNZ data are referred to the following guidelines: "The consumer of these data ("Data User" herein) has an ethical obligation to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or coauthorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you".
+         
+      
+      
+         
+            http://lter.konza.ksu.edu/content/aet01-konza-prairie-grass-reference-evapotranspiration
+         
+      
+      https://doi.org/10.6073/pasta/dfc1aee9624b8cf4ba68b1451093e007
+         
+            Konza Prairie Biological Station (KPBS) is located on a 3,487 hectare native tallgrass prairie preserve jointly owned by The Nature Conservancy and Kansas State University. The KPBS is located in the Flint Hills of northeastern Kansas (39°05’ N, 96°35’ W), a grassland region of steep-slopes overlain by shallow limestone soils unsuitable for cultivation.
+            
+               -96.5833
+               -96.5833
+               39.0833
+               39.0833
+               
+                  397
+                  397
+                  meter
+               
+            
+         
+         
+            
+               
+                  2000-10-16
+               
+               
+                  2023-12-31
+               
+            
+         
+      
+      
+         
+            ongoing
+         
+      
+      
+         Jeffrey Taylor
+         			116 Ackert Hall, Division of Biology, Kansas State University
+			Manhattan, KS 66506  US
+         785-532-7762
+         785-532-6615
+         jht@ksu.edu
+      
+      
+         Konza LTER
+         			Division of Biology
+			Manhattan, KS 66506  US
+         785-532-6729
+         knzlter@ksu.edu
+         http://lter.konza.ksu.edu
+      
+      
+         Environmental Data Initiative
+         info@edirepository.org
+         https://edirepository.org
+         0330j0z60
+      
+      Environmental Data Initiative
+      
+         
+            
+               
+                  Location of Sampling Stations: Headquarters Weather Station Frequency of Sampling: Hourly Variable Measured: Grass Reference Evapotranspiration Methods: This data is derived from LTER dataset AWE01. For instrumentation and field methods see the AWE01 Methods Manual entry. For additional metadata information see: http://lter.konza.ksu.edu/sites/default/files/DC.pdf For additional methods information see: http://lter.konza.ksu.edu/sites/default/files/MM.pdf
+               
+            
+         
+      
+      
+         LTER: Manipulating drivers to assess grassland resilience
+         
+            Jesse Nippert
+            Principal Investigator
+         
+         NSF: DEB-2025849
+         
+            LTER: Long-Term Research on Grassland Dynamics- Assessing Mechanisms of Sensitivity and Resilience to Global Change
+            
+               Jesse Nippert
+               Principal Investigator
+            
+            
+               John Blair
+               Principal Investigator
+            
+            NSF: DEB-1440484
+         
+         
+            Konza Prairie LTER VI: Grassland Dynamics and Long-Term Trajectories of Change
+            
+               John Blair
+               Principal Investigator
+            
+            NSF: DEB-0823341
+         
+         
+            Konza Prairie LTER V: Long-Term Research on Grassland Dynamics and Global Change
+            
+               John Blair
+               Principal Investigator
+            
+            NSF: DEB-0218210
+         
+         
+            Long-Term Ecological Research in Tallgrass Prairie: The Konza Prairie LTER Program
+            
+               Alan Knapp
+               Principal Investigator
+            
+            NSF: DEB-9632851
+         
+         
+            Fire, Grazing, and Climatic Interactions in Tallgrass Prairie
+            
+               Alan Knapp
+               Principal Investigator
+            
+            NSF: DEB-9011662
+         
+         
+            The Role of Fire and Other Disturbances in Determining Ecosystem Processes and Patterns in the Konza Prairie, Kansas
+            
+               Donald Kaufman
+               Principal Investigator
+            
+            NSF: DEB-8514327
+         
+         
+            Long-Term Ecological Research in Tallgrass Prairie
+            
+               Richard Marzolf
+               Principal Investigator
+            
+            NSF: DEB-8012166
+         
+      
+      
+         AET011
+         This record type contains daily total estimated evapotranspiration.
+         
+            AET011.csv
+            143335
+            4bc5769251a3196202a54ff4d6c5a2b6
+            94908dcbb804cb46d4b8c9b513515ab655d319da
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-knz/94/10/fdcd5770ad4dc38ea4efcfe224640a88
+               
+            
+         
+         
+            
+               
+                  
+                     2000-01-03
+                  
+                  
+                     2023-12-31
+                  
+               
+            
+         
+         
+            
+               
+                  
+                     
+                        For additional metadata information see: http://lter.konza.ksu.edu/sites/default/files/DC.pdf For additional methods information see: http://lter.konza.ksu.edu/sites/default/files/MM.pdf
+                     
+                  
+               
+            
+         
+         
+            
+               RecYear
+               RecYear
+               Year of sample
+               
+                  
+                     
+                        Year (YYYY)
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               RecMonth
+               RecMonth
+               Month of sample
+               date
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               RecDay
+               RecDay
+               Day of sample
+               date
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               DailyET
+               DailyET
+               Eaily evapotranspiration
+               
+                  
+                     
+                        millimeter
+                     
+                     0.1
+                     
+                        real
+                     
+                  
+               
+               
+                  Blank
+                  Missing or Not Measured
+               
+            
+            
+               EstimET
+               EstimET
+               Estimated evapotranspiration for missing daily values
+               
+                  
+                     
+                        millimeter
+                     
+                     0.1
+                     
+                        real
+                     
+                  
+               
+               
+                  Blank
+                  Missing or Not Measured
+               
+            
+         
+         8449
+      
+   
+   
+      
+         
+            
+               
+            
+         
+      
+   

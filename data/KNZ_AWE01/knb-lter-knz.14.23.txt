@@ -1,0 +1,887 @@
+
+   
+      
+         uid=KNZ,o=LTER,dc=ecoinformatics,dc=org
+         all
+      
+      
+         public
+         read
+      
+   
+   
+      doi:10.6073/pasta/910469efbf1f7e8d54c2b1ca864edec9AWE01
+      AWE01 Meteorological data from the konza prairie headquarters weather station
+      
+         Jesse Nippert
+         			116 Ackert Hall, Division of Biology, Kansas State University
+			Manhattan, KS 66506  US
+         785-532-0114
+         nippert@ksu.edu
+         http://orcid.org/0000-0002-7939-342X
+      
+      
+         Konza LTER
+         http://www.konza.ksu.edu/
+      
+      2024-01-16
+      
+         
+            The following weather data are included in this data set: hourly (record type 1): mean temperature, mean relative humidity, mean wind speed, mean wind direction, mean solar radiation, soil temperature, max wind speed; daily (record type 2): maximum air temperature, minimum air temperature, mean air temperature, mean relative humidity, total solar radiation, total precipitation, maximum soil temperature, minimum soil temperature, mean soil temperature, average wind speed. These data are collectecd by a micrologger at headquarters on Konza Prairie.
+         
+      
+      
+         Climate/Hydrology
+         Core Areas
+      
+      
+         Abiotic
+         Section
+      
+      
+         air temperature
+         LTER-KNZ
+         Konza Prairie
+         Konza Prairie Biological Station
+         soil temperature
+         solar radiation
+         Temperature
+         relative humidity
+         precipitation
+         soil
+         wind direction
+         wind speed
+         Station Keywords
+      
+      
+         
+            Data Policies
+            Data Use Agreements: The Intellectual Rights within the metadata associated with each KNZ data set determines the exact data and metadata use agreement between the data user and the KNZ LTER site. KNZ LTER data and metadata may be released under the license: CC BY - Attribution (https://creativecommons.org/licenses/by/4.0/). This license lets others distribute, remix, tweak, and build upon KNZ work (even commercially), as long as the KNZ program is credited for the original creation. Alternatively, some KNZ LTER data and metadata may be released into the public domain: CC0 - No Rights Reserved (https://creativecommons.org/share-your-work/public-domain/cc0/). CC0 states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. In either case, users of KNZ data are referred to the following guidelines: "The consumer of these data ("Data User" herein) has an ethical obligation to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or coauthorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you".
+         
+      
+      
+         
+            http://lter.konza.ksu.edu/content/awe01-meteorological-data-konza-prairie-headquarters-weather-station
+         
+      
+      https://doi.org/10.6073/pasta/910469efbf1f7e8d54c2b1ca864edec9
+         
+            HQA : Ungrazed and scheduled prescribed burned annually in the spring.
+            
+               -96.6151
+               -96.6118
+               39.1083
+               39.1019
+            
+         
+         
+            
+               
+                  1982-04-22
+               
+               
+                  2023-12-31
+               
+            
+         
+      
+      
+         Monitor meteorological parameters in tallgrass prairie on a long term basis.
+      
+      
+         
+            ongoing
+         
+      
+      
+         Konza LTER
+         			Division of Biology
+			Manhattan, KS 66506  US
+         785-532-6729
+         knzlter@ksu.edu
+         http://lter.konza.ksu.edu
+      
+      
+         Environmental Data Initiative
+         info@edirepository.org
+         https://edirepository.org
+         0330j0z60
+      
+      Environmental Data Initiative
+      
+         
+            
+               
+                  Location of Sampling Stations: Headquarters weather station (HQC).
+                  Frequency of Sampling: Continuous sampling at headquarters weather station.
+                  Variable Measured: Air temperature at 2 m (⁰C); Relative humidity at 2 m (%); Solar radiation down (0.3-3.0 μm, Wm-2); Wind speed at 3 m (ms-1); Wind direction at 3 m (degrees); Precipitation (mm) Soil temperature at 25 cm (⁰C).
+                  Methods: A Campbell Scientific (CR1000) data logger monitors air temperature, relative humidity, solar radiation, wind speed, soil temperature, and wind direction. Parameters are sampled once every 10 seconds. A microprocessor in the CR1000 manipulates the raw data and outputs the average air temperature, soil temperature, relative humidity, wind speed, solar radiation, and wind direction on 5 minute, hourly, and daily intervals. A separate Campbell Scientific CR800 data logger collects and stores precipitation data from an Ott Pluvio2 rainguage. The CR1000 data is accessed every 5 minutes via wireless internet, and the CR800 is accessed every 15 minutes. SAS software is used to format and output data to AWE011 (hourly) and AWE012 (daily) final storage locations.Missing data are signified with a blank or '.'.
+                  Routine Maintenance: Weather station bi-monthly checks include: Pyranometer check for level, dust accumulation, or other obstruction Relative humidity dust shield check Bearing check on anemometer and wind direction sensor.
+                  Biyearly maintenance includes: Calibration of li200x pyranometer Replace bearings and reed switch in anemometer and bearings in wind direction sensor.
+                  Summary of All Changes: Program execution interval was changed from 60 seconds to 10 on 7/17/2000. This change could significantly influence values reported for max wind speed. Caution should be used when comparing max wind speeds across this date. Hourly precipitation not precise and removed after 1/1/2000. All AWE01 ppt data before 3/19/2010 was collected via tipping bucket. APT01 data should be used for more accurate precipitation values. Soil Temperature data collection began in June 1992, but data are unavailable from 2001 to August 12, 2008 and December 7, 2009 to May 21, 2010. Solar radiation variables were recalculated in March 2023 in order to standardize units that had been inconsistent across years.
+                  For additional metadata information see: http://lter.konza.ksu.edu/sites/default/files/DC.pdf For additional methods information see: http://lter.konza.ksu.edu/sites/default/files/MM.pdf
+               
+            
+            Campbell LI200X pyranometer; Met One 024 wind direction sensor; Met One 014 wind speed sensor; Campbell HMP35C temperature and rh probe; Campbell 107 temperature probe.
+         
+      
+      
+         LTER: Manipulating drivers to assess grassland resilience
+         
+            Jesse Nippert
+            Principal Investigator
+         
+         NSF: DEB-2025849
+         
+            LTER: Long-Term Research on Grassland Dynamics- Assessing Mechanisms of Sensitivity and Resilience to Global Change
+            
+               Jesse Nippert
+               Principal Investigator
+            
+            
+               John Blair
+               Principal Investigator
+            
+            NSF: DEB-1440484
+         
+         
+            Konza Prairie LTER VI: Grassland Dynamics and Long-Term Trajectories of Change
+            
+               John Blair
+               Principal Investigator
+            
+            NSF: DEB-0823341
+         
+         
+            Konza Prairie LTER V: Long-Term Research on Grassland Dynamics and Global Change
+            
+               John Blair
+               Principal Investigator
+            
+            NSF: DEB-0218210
+         
+         
+            Long-Term Ecological Research in Tallgrass Prairie: The Konza Prairie LTER Program
+            
+               Alan Knapp
+               Principal Investigator
+            
+            NSF: DEB-9632851
+         
+         
+            Fire, Grazing, and Climatic Interactions in Tallgrass Prairie
+            
+               Alan Knapp
+               Principal Investigator
+            
+            NSF: DEB-9011662
+         
+         
+            The Role of Fire and Other Disturbances in Determining Ecosystem Processes and Patterns in the Konza Prairie, Kansas
+            
+               Donald Kaufman
+               Principal Investigator
+            
+            NSF: DEB-8514327
+         
+         
+            Long-Term Ecological Research in Tallgrass Prairie
+            
+               Richard Marzolf
+               Principal Investigator
+            
+            NSF: DEB-8012166
+         
+      
+      
+         AWE011
+         Hourly weather data,
+         
+            AWE011.csv
+            24150796
+            3dba6c16e7edb7f890b919dd77d544e7
+            9a4b2a8bd1d1d9ebee48756f5be8d8cee0d99d47
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-knz/14/23/5197af0b7edd53cf1ed12bea1d93b97d
+               
+            
+         
+         
+            
+               DataCode
+               DataCode
+               Dataset code
+               string
+               
+                  
+                     
+                        
+                           Dataset code
+                        
+                     
+                  
+               
+            
+            
+               RecType
+               RecType
+               Record type
+               string
+               
+                  
+                     
+                        
+                           Record type
+                        
+                     
+                  
+               
+            
+            
+               RecYear
+               RecYear
+               Year of record
+               
+                  
+                     
+                        Year (YYYY)
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               RecMonth
+               RecMonth
+               Month of record
+               date
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               RecDay
+               RecDay
+               Day of record
+               date
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               Watershed
+               Watershed
+               watershed
+               string
+               
+                  
+                     
+                        
+                           watershed
+                        
+                     
+                  
+               
+            
+            
+               RecHour
+               RecHour
+               record hour
+               date
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               Tair
+               Tair
+               air temperature
+               
+                  
+                     
+                        celsius
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+               
+                  .
+                  Missing or Not Measured
+               
+            
+            
+               Rhum
+               Rhum
+               relative humidity
+               
+                  
+                     
+                        percent
+                     
+                     0.001
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               Wspeed
+               Wspeed
+               wind speed
+               
+                  
+                     
+                        metersPerSecond
+                     
+                     0.001
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               Wdir
+               Wdir
+               wind direction
+               
+                  
+                     
+                        degree
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               Srad
+               Srad
+               solar radiation
+               
+                  
+                     
+                        wattPerMeterSquared
+                     
+                     0.001
+                     
+                        real
+                     
+                  
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+               
+                  .
+                  Missing or Not Measured
+               
+            
+            
+               Stemp
+               Stemp
+               soil temperature at 25cm
+               
+                  
+                     
+                        celsius
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+               
+                  .
+                  Missing or Not Measured
+               
+            
+            
+               Wmax
+               Wmax
+               max wind speed (10 sec. execution interval)
+               
+                  
+                     
+                        metersPerSecond
+                     
+                     0.001
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+         
+         365488
+      
+      
+         AWE012
+         Daily weather data.
+         
+            AWE012.csv
+            1153368
+            60aa8da0f4968a40ea7e5ed0a5d4c198
+            f5c97ae5848e0092f0d4adea167c70926eaeb09f
+            
+               
+                  1
+                  \r\n
+                  column
+                  
+                     ,
+                     "
+                  
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-knz/14/23/7c05394cff53d03d7b62eb7f385ee4c8
+               
+            
+         
+         
+            
+               DataCode
+               DataCode
+               Dataset code
+               string
+               
+                  
+                     
+                        
+                           Dataset code
+                        
+                     
+                  
+               
+            
+            
+               RecType
+               RecType
+               Record type
+               string
+               
+                  
+                     
+                        
+                           Record type
+                        
+                     
+                  
+               
+            
+            
+               RecYear
+               RecYear
+               Year of record
+               
+                  
+                     
+                        Year (YYYY)
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               RecMonth
+               RecMonth
+               Month of record
+               date
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               RecDay
+               RecDay
+               Day of record
+               date
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               Watershed
+               Watershed
+               watershed
+               string
+               
+                  
+                     
+                        
+                           watershed
+                        
+                     
+                  
+               
+            
+            
+               DayofYear
+               DayofYear
+               day of year (julian day)
+               date
+               
+                  
+                     
+                        dimensionless
+                     
+                     
+                        real
+                     
+                  
+               
+            
+            
+               Tmax
+               Tmax
+               maximum air temperature
+               
+                  
+                     
+                        celsius
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               Tmin
+               Tmin
+               minimum air temperature
+               
+                  
+                     
+                        celsius
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               Tave
+               Tave
+               average air temperature
+               
+                  
+                     
+                        celsius
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               Dhumid
+               Dhumid
+               average relative humidity
+               
+                  
+                     
+                        percent
+                     
+                     0.001
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               Dsrad
+               Dsrad
+               total daily solar radiation
+               
+                  
+                     
+                        megajoulePerMeterSquared
+                     
+                     0.001
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               Dppt
+               Dppt
+               total daily precipitation
+               
+                  
+                     
+                        millimeter
+                     
+                     0.001
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               Smax
+               Smax
+               maximum soil temperature at 25 cm
+               
+                  
+                     
+                        celsius
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               Smin
+               Smin
+               minimum soil temperature at 25 cm
+               
+                  
+                     
+                        celsius
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               S_ave
+               S_ave
+               average soil temperature at 25 cm
+               
+                  
+                     
+                        celsius
+                     
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+            
+               Wave
+               Wave
+               average wind speed
+               
+                  
+                     
+                        metersPerSecond
+                     
+                     0.001
+                     
+                        real
+                     
+                  
+               
+               
+                  .
+                  Missing or Not Measured
+               
+               
+                  blank
+                  Missing or Not Measured
+               
+            
+         
+         15037
+      
+   
+   
+      
+         
+            
+               
+            
+            
+               ratio of two quantities as percent composition (1:100)
+            
+            
+               
+            
+            
+               
+            
+         
+      
+   

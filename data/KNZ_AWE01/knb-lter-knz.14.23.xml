@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-knz.14.23"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0    https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+   <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+      <allow>
+         <principal>uid=KNZ,o=LTER,dc=ecoinformatics,dc=org</principal>
+         <permission>all</permission>
+      </allow>
+      <allow>
+         <principal>public</principal>
+         <permission>read</permission>
+      </allow>
+   </access>
+   <dataset>
+      <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/910469efbf1f7e8d54c2b1ca864edec9</alternateIdentifier><shortName>AWE01</shortName>
+      <title>AWE01 Meteorological data from the konza prairie headquarters weather station</title>
+      <creator>
+         <individualName>
+            <givenName>Jesse</givenName>
+            <surName>Nippert</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+            <city>Manhattan</city>
+            <administrativeArea>KS</administrativeArea>
+            <postalCode>66506</postalCode>
+            <country>US</country>
+         </address>
+         <phone
+        phonetype="voice">785-532-0114</phone>
+         <electronicMailAddress>nippert@ksu.edu</electronicMailAddress>
+         <userId
+          directory="http://orcid.org">http://orcid.org/0000-0002-7939-342X</userId>
+      </creator>
+      <metadataProvider>
+         <organizationName>Konza LTER</organizationName>
+         <onlineUrl>http://www.konza.ksu.edu/</onlineUrl>
+      </metadataProvider>
+      <pubDate>2024-01-16</pubDate>
+      <abstract>
+         <section>
+            <para>The following weather data are included in this data set: hourly (record type 1): mean temperature, mean relative humidity, mean wind speed, mean wind direction, mean solar radiation, soil temperature, max wind speed; daily (record type 2): maximum air temperature, minimum air temperature, mean air temperature, mean relative humidity, total solar radiation, total precipitation, maximum soil temperature, minimum soil temperature, mean soil temperature, average wind speed. These data are collectecd by a micrologger at headquarters on Konza Prairie.</para>
+         </section>
+      </abstract>
+      <keywordSet>
+         <keyword>Climate/Hydrology</keyword>
+         <keywordThesaurus>Core Areas</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>Abiotic</keyword>
+         <keywordThesaurus>Section</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+         <keyword>air temperature</keyword>
+         <keyword>LTER-KNZ</keyword>
+         <keyword>Konza Prairie</keyword>
+         <keyword>Konza Prairie Biological Station</keyword>
+         <keyword>soil temperature</keyword>
+         <keyword>solar radiation</keyword>
+         <keyword>Temperature</keyword>
+         <keyword>relative humidity</keyword>
+         <keyword>precipitation</keyword>
+         <keyword>soil</keyword>
+         <keyword>wind direction</keyword>
+         <keyword>wind speed</keyword>
+         <keywordThesaurus>Station Keywords</keywordThesaurus>
+      </keywordSet>
+      <intellectualRights>
+         <section>
+            <title>Data Policies</title>
+            <para>Data Use Agreements: The Intellectual Rights within the metadata associated with each KNZ data set determines the exact data and metadata use agreement between the data user and the KNZ LTER site. KNZ LTER data and metadata may be released under the license: CC BY - Attribution (https://creativecommons.org/licenses/by/4.0/). This license lets others distribute, remix, tweak, and build upon KNZ work (even commercially), as long as the KNZ program is credited for the original creation. Alternatively, some KNZ LTER data and metadata may be released into the public domain: CC0 - No Rights Reserved (https://creativecommons.org/share-your-work/public-domain/cc0/). CC0 states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. In either case, users of KNZ data are referred to the following guidelines: "The consumer of these data ("Data User" herein) has an ethical obligation to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or coauthorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you".</para>
+         </section>
+      </intellectualRights>
+      <distribution>
+         <online>
+            <url
+      function="information">http://lter.konza.ksu.edu/content/awe01-meteorological-data-konza-prairie-headquarters-weather-station</url>
+         </online>
+      </distribution>
+      <distribution
+      id="10.6073/pasta/910469efbf1f7e8d54c2b1ca864edec9" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+        function="information">https://doi.org/10.6073/pasta/910469efbf1f7e8d54c2b1ca864edec9</url></online></distribution><coverage>
+         <geographicCoverage>
+            <geographicDescription>HQA : Ungrazed and scheduled prescribed burned annually in the spring.</geographicDescription>
+            <boundingCoordinates>
+               <westBoundingCoordinate>-96.6151</westBoundingCoordinate>
+               <eastBoundingCoordinate>-96.6118</eastBoundingCoordinate>
+               <northBoundingCoordinate>39.1083</northBoundingCoordinate>
+               <southBoundingCoordinate>39.1019</southBoundingCoordinate>
+            </boundingCoordinates>
+         </geographicCoverage>
+         <temporalCoverage>
+            <rangeOfDates>
+               <beginDate>
+                  <calendarDate>1982-04-22</calendarDate>
+               </beginDate>
+               <endDate>
+                  <calendarDate>2023-12-31</calendarDate>
+               </endDate>
+            </rangeOfDates>
+         </temporalCoverage>
+      </coverage>
+      <purpose>
+         <para>Monitor meteorological parameters in tallgrass prairie on a long term basis.</para>
+      </purpose>
+      <maintenance>
+         <description>
+            <para>ongoing</para>
+         </description>
+      </maintenance>
+      <contact>
+         <individualName>
+            <givenName>Konza</givenName>
+            <surName>LTER</surName>
+         </individualName>
+         <address>
+            <deliveryPoint>Division of Biology</deliveryPoint>
+            <city>Manhattan</city>
+            <administrativeArea>KS</administrativeArea>
+            <postalCode>66506</postalCode>
+            <country>US</country>
+         </address>
+         <phone
+        phonetype="voice">785-532-6729</phone>
+         <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+         <onlineUrl>http://lter.konza.ksu.edu</onlineUrl>
+      </contact>
+      <publisher>
+         <organizationName>Environmental Data Initiative</organizationName>
+         <electronicMailAddress>info@edirepository.org</electronicMailAddress>
+         <onlineUrl>https://edirepository.org</onlineUrl>
+         <userId
+      directory="https://ror.org">0330j0z60</userId>
+      </publisher>
+      <pubPlace>Environmental Data Initiative</pubPlace>
+      <methods>
+         <methodStep>
+            <description>
+               <section>
+                  <para>Location of Sampling Stations: Headquarters weather station (HQC).</para>
+                  <para>Frequency of Sampling: Continuous sampling at headquarters weather station.</para>
+                  <para>Variable Measured: Air temperature at 2 m (⁰C); Relative humidity at 2 m (%); Solar radiation down (0.3-3.0 μm, Wm-2); Wind speed at 3 m (ms-1); Wind direction at 3 m (degrees); Precipitation (mm) Soil temperature at 25 cm (⁰C).</para>
+                  <para>Methods: A Campbell Scientific (CR1000) data logger monitors air temperature, relative humidity, solar radiation, wind speed, soil temperature, and wind direction. Parameters are sampled once every 10 seconds. A microprocessor in the CR1000 manipulates the raw data and outputs the average air temperature, soil temperature, relative humidity, wind speed, solar radiation, and wind direction on 5 minute, hourly, and daily intervals. A separate Campbell Scientific CR800 data logger collects and stores precipitation data from an Ott Pluvio2 rainguage. The CR1000 data is accessed every 5 minutes via wireless internet, and the CR800 is accessed every 15 minutes. SAS software is used to format and output data to AWE011 (hourly) and AWE012 (daily) final storage locations.Missing data are signified with a blank or '.'.</para>
+                  <para>Routine Maintenance: Weather station bi-monthly checks include: Pyranometer check for level, dust accumulation, or other obstruction Relative humidity dust shield check Bearing check on anemometer and wind direction sensor.</para>
+                  <para>Biyearly maintenance includes: Calibration of li200x pyranometer Replace bearings and reed switch in anemometer and bearings in wind direction sensor.</para>
+                  <para>Summary of All Changes: Program execution interval was changed from 60 seconds to 10 on 7/17/2000. This change could significantly influence values reported for max wind speed. Caution should be used when comparing max wind speeds across this date. Hourly precipitation not precise and removed after 1/1/2000. All AWE01 ppt data before 3/19/2010 was collected via tipping bucket. APT01 data should be used for more accurate precipitation values. Soil Temperature data collection began in June 1992, but data are unavailable from 2001 to August 12, 2008 and December 7, 2009 to May 21, 2010. Solar radiation variables were recalculated in March 2023 in order to standardize units that had been inconsistent across years.</para>
+                  <para>For additional metadata information see: http://lter.konza.ksu.edu/sites/default/files/DC.pdf For additional methods information see: http://lter.konza.ksu.edu/sites/default/files/MM.pdf</para>
+               </section>
+            </description>
+            <instrumentation>Campbell LI200X pyranometer; Met One 024 wind direction sensor; Met One 014 wind speed sensor; Campbell HMP35C temperature and rh probe; Campbell 107 temperature probe.</instrumentation>
+         </methodStep>
+      </methods>
+      <project>
+         <title>LTER: Manipulating drivers to assess grassland resilience</title>
+         <personnel>
+            <individualName>
+               <givenName>Jesse</givenName>
+               <surName>Nippert</surName>
+            </individualName>
+            <role>Principal Investigator</role>
+         </personnel>
+         <funding>NSF: DEB-2025849</funding>
+         <relatedProject>
+            <title>LTER: Long-Term Research on Grassland Dynamics- Assessing Mechanisms of Sensitivity and Resilience to Global Change</title>
+            <personnel>
+               <individualName>
+                  <givenName>Jesse</givenName>
+                  <surName>Nippert</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <personnel>
+               <individualName>
+                  <givenName>John</givenName>
+                  <surName>Blair</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-1440484</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>Konza Prairie LTER VI: Grassland Dynamics and Long-Term Trajectories of Change</title>
+            <personnel>
+               <individualName>
+                  <givenName>John</givenName>
+                  <surName>Blair</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-0823341</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>Konza Prairie LTER V: Long-Term Research on Grassland Dynamics and Global Change</title>
+            <personnel>
+               <individualName>
+                  <givenName>John</givenName>
+                  <surName>Blair</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-0218210</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>Long-Term Ecological Research in Tallgrass Prairie: The Konza Prairie LTER Program</title>
+            <personnel>
+               <individualName>
+                  <givenName>Alan</givenName>
+                  <surName>Knapp</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-9632851</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>Fire, Grazing, and Climatic Interactions in Tallgrass Prairie</title>
+            <personnel>
+               <individualName>
+                  <givenName>Alan</givenName>
+                  <surName>Knapp</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-9011662</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>The Role of Fire and Other Disturbances in Determining Ecosystem Processes and Patterns in the Konza Prairie, Kansas</title>
+            <personnel>
+               <individualName>
+                  <givenName>Donald</givenName>
+                  <surName>Kaufman</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-8514327</funding>
+         </relatedProject>
+         <relatedProject>
+            <title>Long-Term Ecological Research in Tallgrass Prairie</title>
+            <personnel>
+               <individualName>
+                  <givenName>Richard</givenName>
+                  <surName>Marzolf</surName>
+               </individualName>
+               <role>Principal Investigator</role>
+            </personnel>
+            <funding>NSF: DEB-8012166</funding>
+         </relatedProject>
+      </project>
+      <dataTable
+      id="5197af0b7edd53cf1ed12bea1d93b97d" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>AWE011</entityName>
+         <entityDescription>Hourly weather data,</entityDescription>
+         <physical>
+            <objectName>AWE011.csv</objectName>
+            <size>24150796</size>
+            <authentication
+          method="MD5">3dba6c16e7edb7f890b919dd77d544e7</authentication>
+            <authentication
+              method="SHA-1">9a4b2a8bd1d1d9ebee48756f5be8d8cee0d99d47</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+      function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-knz/14/23/5197af0b7edd53cf1ed12bea1d93b97d</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute>
+               <attributeName>DataCode</attributeName>
+               <attributeLabel>DataCode</attributeLabel>
+               <attributeDefinition>Dataset code</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Dataset code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RecType</attributeName>
+               <attributeLabel>RecType</attributeLabel>
+               <attributeDefinition>Record type</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Record type</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RecYear</attributeName>
+               <attributeLabel>RecYear</attributeLabel>
+               <attributeDefinition>Year of record</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>Year (YYYY)</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RecMonth</attributeName>
+               <attributeLabel>RecMonth</attributeLabel>
+               <attributeDefinition>Month of record</attributeDefinition>
+               <storageType>date</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RecDay</attributeName>
+               <attributeLabel>RecDay</attributeLabel>
+               <attributeDefinition>Day of record</attributeDefinition>
+               <storageType>date</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Watershed</attributeName>
+               <attributeLabel>Watershed</attributeLabel>
+               <attributeDefinition>watershed</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>watershed</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RecHour</attributeName>
+               <attributeLabel>RecHour</attributeLabel>
+               <attributeDefinition>record hour</attributeDefinition>
+               <storageType>date</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Tair</attributeName>
+               <attributeLabel>Tair</attributeLabel>
+               <attributeDefinition>air temperature</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Rhum</attributeName>
+               <attributeLabel>Rhum</attributeLabel>
+               <attributeDefinition>relative humidity</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>percent</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Wspeed</attributeName>
+               <attributeLabel>Wspeed</attributeLabel>
+               <attributeDefinition>wind speed</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>metersPerSecond</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Wdir</attributeName>
+               <attributeLabel>Wdir</attributeLabel>
+               <attributeDefinition>wind direction</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>degree</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Srad</attributeName>
+               <attributeLabel>Srad</attributeLabel>
+               <attributeDefinition>solar radiation</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>wattPerMeterSquared</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Stemp</attributeName>
+               <attributeLabel>Stemp</attributeLabel>
+               <attributeDefinition>soil temperature at 25cm</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Wmax</attributeName>
+               <attributeLabel>Wmax</attributeLabel>
+               <attributeDefinition>max wind speed (10 sec. execution interval)</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>metersPerSecond</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>365488</numberOfRecords>
+      </dataTable>
+      <dataTable
+      id="7c05394cff53d03d7b62eb7f385ee4c8" scope="document"
+          system="https://pasta.edirepository.org">
+         <entityName>AWE012</entityName>
+         <entityDescription>Daily weather data.</entityDescription>
+         <physical>
+            <objectName>AWE012.csv</objectName>
+            <size>1153368</size>
+            <authentication
+          method="MD5">60aa8da0f4968a40ea7e5ed0a5d4c198</authentication>
+            <authentication
+              method="SHA-1">f5c97ae5848e0092f0d4adea167c70926eaeb09f</authentication>
+            <dataFormat>
+               <textFormat>
+                  <numHeaderLines>1</numHeaderLines>
+                  <recordDelimiter>\r\n</recordDelimiter>
+                  <attributeOrientation>column</attributeOrientation>
+                  <simpleDelimited>
+                     <fieldDelimiter>,</fieldDelimiter>
+                     <quoteCharacter>"</quoteCharacter>
+                  </simpleDelimited>
+               </textFormat>
+            </dataFormat>
+            <distribution>
+               <online>
+                  <url
+        function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-knz/14/23/7c05394cff53d03d7b62eb7f385ee4c8</url>
+               </online>
+            </distribution>
+         </physical>
+         <attributeList>
+            <attribute>
+               <attributeName>DataCode</attributeName>
+               <attributeLabel>DataCode</attributeLabel>
+               <attributeDefinition>Dataset code</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Dataset code</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RecType</attributeName>
+               <attributeLabel>RecType</attributeLabel>
+               <attributeDefinition>Record type</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>Record type</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RecYear</attributeName>
+               <attributeLabel>RecYear</attributeLabel>
+               <attributeDefinition>Year of record</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>Year (YYYY)</customUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RecMonth</attributeName>
+               <attributeLabel>RecMonth</attributeLabel>
+               <attributeDefinition>Month of record</attributeDefinition>
+               <storageType>date</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>RecDay</attributeName>
+               <attributeLabel>RecDay</attributeLabel>
+               <attributeDefinition>Day of record</attributeDefinition>
+               <storageType>date</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Watershed</attributeName>
+               <attributeLabel>Watershed</attributeLabel>
+               <attributeDefinition>watershed</attributeDefinition>
+               <storageType>string</storageType>
+               <measurementScale>
+                  <nominal>
+                     <nonNumericDomain>
+                        <textDomain>
+                           <definition>watershed</definition>
+                        </textDomain>
+                     </nonNumericDomain>
+                  </nominal>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>DayofYear</attributeName>
+               <attributeLabel>DayofYear</attributeLabel>
+               <attributeDefinition>day of year (julian day)</attributeDefinition>
+               <storageType>date</storageType>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>dimensionless</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+            </attribute>
+            <attribute>
+               <attributeName>Tmax</attributeName>
+               <attributeLabel>Tmax</attributeLabel>
+               <attributeDefinition>maximum air temperature</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Tmin</attributeName>
+               <attributeLabel>Tmin</attributeLabel>
+               <attributeDefinition>minimum air temperature</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Tave</attributeName>
+               <attributeLabel>Tave</attributeLabel>
+               <attributeDefinition>average air temperature</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Dhumid</attributeName>
+               <attributeLabel>Dhumid</attributeLabel>
+               <attributeDefinition>average relative humidity</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>percent</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Dsrad</attributeName>
+               <attributeLabel>Dsrad</attributeLabel>
+               <attributeDefinition>total daily solar radiation</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <customUnit>megajoulePerMeterSquared</customUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Dppt</attributeName>
+               <attributeLabel>Dppt</attributeLabel>
+               <attributeDefinition>total daily precipitation</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>millimeter</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Smax</attributeName>
+               <attributeLabel>Smax</attributeLabel>
+               <attributeDefinition>maximum soil temperature at 25 cm</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Smin</attributeName>
+               <attributeLabel>Smin</attributeLabel>
+               <attributeDefinition>minimum soil temperature at 25 cm</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>S_ave</attributeName>
+               <attributeLabel>S_ave</attributeLabel>
+               <attributeDefinition>average soil temperature at 25 cm</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>celsius</standardUnit>
+                     </unit>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+            <attribute>
+               <attributeName>Wave</attributeName>
+               <attributeLabel>Wave</attributeLabel>
+               <attributeDefinition>average wind speed</attributeDefinition>
+               <measurementScale>
+                  <ratio>
+                     <unit>
+                        <standardUnit>metersPerSecond</standardUnit>
+                     </unit>
+                     <precision>0.001</precision>
+                     <numericDomain>
+                        <numberType>real</numberType>
+                     </numericDomain>
+                  </ratio>
+               </measurementScale>
+               <missingValueCode>
+                  <code>.</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+               <missingValueCode>
+                  <code>blank</code>
+                  <codeExplanation>Missing or Not Measured</codeExplanation>
+               </missingValueCode>
+            </attribute>
+         </attributeList>
+         <numberOfRecords>15037</numberOfRecords>
+      </dataTable>
+   </dataset>
+   <additionalMetadata>
+      <metadata>
+         <stmml:unitList
+          xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0          https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+            <stmml:unit
+          id="Year (YYYY)">
+               <stmml:description/>
+            </stmml:unit>
+            <stmml:unit
+          abbreviation="%" constantToSI="0" id="percent"
+          multiplierToSI="100" name="percent" parentSI="numberPerNumber"
+          unitType="dimensionless">
+               <stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description>
+            </stmml:unit>
+            <stmml:unit
+          id="wattPerMeterSquared">
+               <stmml:description/>
+            </stmml:unit>
+            <stmml:unit id="megajoulePerMeterSquared">
+               <stmml:description/>
+            </stmml:unit>
+         </stmml:unitList>
+      </metadata>
+   </additionalMetadata>
+</eml:eml>
