@@ -65,7 +65,7 @@ p_overall <-
                        option = "C",
                        direction = -1,
                        na.value = "white") +
-  annotation_scale(location = "br") +
+  annotation_scale(location = "bl") +
   theme(panel.border = element_blank(),
         axis.text = element_blank(),
         axis.ticks = element_blank(),
@@ -74,6 +74,15 @@ p_overall <-
         legend.justification = c(1, 0),
         legend.title.position = "top") +
   labs(title = "(a) Full Time Period")
+
+# just save p_overall
+ggsave(file.path("figures+tables", "Figure6_MapPrcWet-Overall.png"),
+       (p_overall + 
+          theme(plot.title = element_blank(),
+                #legend.position = "bottom",
+                legend.key.width = unit(8, "mm"),
+                legend.title = element_text(hjust = 0.5))),
+       width = 95, height = 95, units = "mm")
 
 p_2021 <-
   ggplot() + 
@@ -143,5 +152,5 @@ p_2023 <-
   theme(legend.position = "bottom",
         legend.key.width = unit(10, "mm"),
         legend.title = element_text(hjust = 0.5))
-ggsave(file.path("figures+tables", "Figure6_MapPrcWet.png"),
+ggsave(file.path("figures+tables", "Figure6_MapPrcWet-MultiYear.png"),
        width = 150, height = 190, units = "mm")

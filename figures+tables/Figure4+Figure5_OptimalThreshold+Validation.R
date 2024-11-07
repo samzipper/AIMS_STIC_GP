@@ -35,8 +35,14 @@ for (c in 1:length(df_classificationAccuracy$condUncal_thres)){
 df_classificationAccuracy$errorBalance <- 
   abs(df_classificationAccuracy$wetAsDry_prc - df_classificationAccuracy$dryAsWet_prc)
 
+# overall best
+df_classificationAccuracy[which.max(df_classificationAccuracy$accuracy_prc), ]
+
 # choose optimal condUncal threshold
 condUncal_thres <- df_classificationAccuracy$condUncal_thres[which.min(df_classificationAccuracy$errorBalance)]
+df_classificationAccuracy[df_classificationAccuracy$condUncal_thres == condUncal_thres, ]
+
+
 df_classificationAccuracy |> 
   dplyr::select(-errorBalance) |> 
   pivot_longer(-condUncal_thres) |> 
