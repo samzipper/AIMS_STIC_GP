@@ -1,4 +1,4 @@
-## Figure7_MapPrcWet.R
+## Figure6_MapPrcWet.R
 
 ## prep workspace
 source(file.path("code", "paths+packages.R"))
@@ -143,5 +143,5 @@ p_2023 <-
   theme(legend.position = "bottom",
         legend.key.width = unit(10, "mm"),
         legend.title = element_text(hjust = 0.5))
-ggsave(file.path("figures+tables", "Figure7_MapPrcWet.png"),
+ggsave(file.path("figures+tables", "Figure6_MapPrcWet.png"),
        width = 150, height = 190, units = "mm")

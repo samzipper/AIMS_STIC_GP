@@ -1,4 +1,4 @@
-## Figure5+6_OptimalThreshold+Validation.R
+## Figure4+5_OptimalThreshold+Validation.R
 
 # prep workspace
 source(file.path("code", "paths+packages.R"))
@@ -63,7 +63,7 @@ df_classificationAccuracy |>
         legend.direction = "vertical") +
   guides(x = guide_axis(minor.ticks = TRUE),
          color = guide_legend())
-ggsave(file.path("figures+tables", "Figure5_OptimalThreshold.png"),
+ggsave(file.path("figures+tables", "Figure4_OptimalThreshold.png"),
        width = 95, height = 110, units = "mm")
 
 ## Figure 6: validation performance
@@ -121,7 +121,7 @@ p_SpC <-
 (p_accuracy + p_SpC) +
   plot_layout(ncol = 1) +
   theme(plot.tag = element_text(face = "plain"))
-ggsave(file.path("figures+tables", "Figure6_Validation.png"),
+ggsave(file.path("figures+tables", "Figure5_Validation.png"),
        width = 95, height = 190, units = "mm")
 
 # get fit stats

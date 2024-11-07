@@ -1,4 +1,4 @@
-## Figure8_TimeseriesPrcWet.R
+## Figure7_TimeseriesPrcWet.R
 
 ## prep workspace
 source(file.path("code", "paths+packages.R"))
@@ -143,7 +143,7 @@ p_time_precip <-
                  DDDD",
               heights = c(1, 0.75, 0.75)) +
   plot_annotation(tag_levels = "a", tag_prefix = "(", tag_suffix = ")")
-ggsave(file.path("figures+tables", "Figure8_TimeseriesPrcWet.png"),
+ggsave(file.path("figures+tables", "Figure7_TimeseriesPrcWet.png"),
        width = 190, height = 140, units = "mm")
 
 # p_time <-

@@ -1,4 +1,4 @@
-## Figure4_STICcount.R
+## FigureX-unused_STICcount.R
 
 # prep workspace
 source(file.path("code", "paths+packages.R"))
@@ -27,5 +27,5 @@ ggplot(df_count, aes(x = Date, y = count, color = metric)) +
   theme(legend.position = c(0.01, 0.01),
         legend.justification = c(0, 0)) +
   guides(color = guide_legend(reverse = TRUE))
-ggsave(file.path("figures+tables", "Figure4_STICcount.png"),
+ggsave(file.path("figures+tables", "FigureX-unused_STICcount.png"),
        width = 95, height = 95, units = "mm")
