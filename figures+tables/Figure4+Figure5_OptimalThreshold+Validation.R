@@ -133,3 +133,12 @@ ggsave(file.path("figures+tables", "Figure5_Validation.png"),
 # get fit stats
 lm(SpC_STIC ~ SpC_obs, df_validate) |> summary()
 lm(SpC_STIC ~ SpC_obs, subset(df_validate, !QAQC_O)) |> summary()
+
+## inspect incorrect classifications
+df_wrong <- subset(df_validate, wetdry_obs != wetdry_STIC)
+
+# wet incorrectly classified as dry
+df_wetAsDry <- subset(df_wrong, wetdry_obs == "wet")
+sum(df_wetAsDry$condUncal_STIC == 0)
+sum(df_wetAsDry$condUncal_STIC > 0 & df_wetAsDry$condUncal_STIC < 100)
+sum(df_wetAsDry$condUncal_STIC > 0 & df_wetAsDry$condUncal_STIC < 200)
