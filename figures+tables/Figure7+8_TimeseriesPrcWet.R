@@ -107,63 +107,7 @@ lm(prc_wet_overall ~ precip_mm_bestLag, data = df_join) |> summary()
 lm(prc_wet_overall ~ ET_mm_bestLag, data = df_join) |> summary()
 lm(prc_wet_overall ~ precip_mm_bestLag + ET_mm_bestLag, data = df_join) |> summary()
 
-## FINAL PLOTS - VERSION 1 - 4 PANEL, EVERYTHING COMBINED, PRECIP ONLY:
-# R2 distribution
-p_r2 <-
-  subset(df_all, response == "prc_wet_overall" & variable == "precip_mm") |> 
-  pivot_longer(variable) |> 
-  ggplot(aes(x = window, y = r2)) + 
-  geom_col(color = col.cat.blu, fill = col.cat.blu) +
-  geom_vline(xintercept = precip_bestLag, color = col.cat.red) +
-  scale_x_continuous(name = "Precipitation window [days]", limits = c(0, 365), expand = c(0,0)) +
-  scale_y_continuous(name = "R\u00b2, wet STIC proportion ~\nsummed precipitation",
-                     limits = c(0, 0.605), expand = c(0,0))
-
-p_scatter <- 
-  ggplot(df_join, aes(y = prc_wet_overall, x = precip_mm_bestLag)) +
-  geom_point(shape = 1) +
-  stat_smooth(method = "lm", color = col.cat.red) +
-  scale_x_continuous(name = paste0("Precipitation [mm], ", precip_bestLag, "-day sum"),
-                     expand = c(0, 0)) +
-  scale_y_continuous(name = "Wet STIC proportion",
-                     expand = c(0, 0))
-
-p_time_STIC <-
-  ggplot(df_join, aes(x = Date, y = prc_wet_overall)) +
-  geom_line() +
-  scale_x_date(name = "Date [daily]", limits = c(ymd("2021-05-01"), ymd("2024-05-21")), expand = c(0,0), date_minor_breaks = "1 month") +
-  scale_y_continuous(name = "Wet STIC\nproportion") +
-  theme(axis.title.x = element_blank()) +
-  guides(x = guide_axis(minor.ticks = TRUE))
-
-p_time_precip <-
-  ggplot(df_join, aes(x = Date, y = precip_mm_bestLag)) +
-  geom_line() +
-  scale_x_date(name = "Date [daily]", limits = c(ymd("2021-05-01"), ymd("2024-05-21")), expand = c(0,0), date_minor_breaks = "1 month") +
-  scale_y_continuous(name = paste0("Precipitation [mm],\n", precip_bestLag, "-day sum")) +
-  guides(x = guide_axis(minor.ticks = TRUE))
-
-p_time_ET <-
-  ggplot(df_join, aes(x = Date, y = ET_mm_bestLag)) +
-  geom_line() +
-  scale_x_date(name = "Date [daily]", limits = c(ymd("2021-05-01"), ymd("2024-05-21")), expand = c(0,0), date_minor_breaks = "1 month") +
-  scale_y_continuous(name = paste0("ET [mm],\n", ET_bestLag, "-day sum")) +
-  guides(x = guide_axis(minor.ticks = TRUE))
-
-(p_r2 + theme(plot.tag = element_text(hjust = 1, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.99, 0.98)) +
-    p_scatter + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.01, 0.98)) +
-    p_time_STIC + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.04, 0.98)) +
-    p_time_precip + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.005, 0.98))) +
-  plot_layout(design = 
-                "AABB
-                 CCCC
-                 DDDD",
-              heights = c(1, 0.75, 0.75)) +
-  plot_annotation(tag_levels = "a", tag_prefix = "(", tag_suffix = ")")
-ggsave(file.path("figures+tables", "Figure7_TimeseriesPrcWet-4panelCombined.png"),
-       width = 190, height = 140, units = "mm")
-
-## FINAL PLOTS - VERSION 2 - 6 PANEL, PRECIP + ET:
+## FINAL PLOTS - VERSION 3 - 8 PANEL, DAILY AND LAGGED PRECIP + ET:
 # R2 distribution
 p_r2_precip <-
   subset(df_all, response == "prc_wet_overall" & variable == "precip_mm") |> 
@@ -211,8 +155,17 @@ p_scatter <-
 p_time_STIC <-
   ggplot(df_join, aes(x = Date, y = prc_wet_overall)) +
   geom_line() +
-  scale_x_date(name = "Date [daily]", limits = c(ymd("2021-05-01"), ymd("2024-05-21")), expand = c(0,0), date_minor_breaks = "1 month") +
-  scale_y_continuous(name = "Wet STIC proportion",
+  scale_x_date(name = "Date", 
+               limits = c(ymd("2021-05-01"), ymd("2024-05-21")), 
+               expand = c(0,0), 
+               breaks = seq(ymd("2021-05-01"), ymd("2024-05-01"), by = "1 month"),
+               minor_breaks = NULL,
+               labels = c("May\n2021", "", "", "", "Sep", "", "", "", 
+                          "Jan\n2022", "", "", "", "May", "", "", "", "Sep", "", "", "", 
+                          "Jan\n2023", "", "", "", "May", "", "", "", "Sep", "", "", "",
+                          "Jan\n2024", "", "", "", "May")
+  ) +
+  scale_y_continuous(name = "Wet STIC\nproportion",
                      breaks = seq(0, 1, 0.25),
                      labels = c("0", "", "0.5", "", "1")) +
   theme(axis.title.x = element_blank()) +
@@ -221,19 +174,102 @@ p_time_STIC <-
 p_time_precip <-
   ggplot(df_join, aes(x = Date, y = precip_mm_bestLag)) +
   geom_line() +
-  scale_x_date(name = "Date [daily]", limits = c(ymd("2021-05-01"), ymd("2024-05-21")), expand = c(0,0), date_minor_breaks = "1 month") +
+  scale_x_date(name = "Date", 
+               limits = c(ymd("2021-05-01"), ymd("2024-05-21")), 
+               expand = c(0,0), 
+               breaks = seq(ymd("2021-05-01"), ymd("2024-05-01"), by = "1 month"),
+               minor_breaks = NULL,
+               labels = c("May\n2021", "", "", "", "Sep", "", "", "", 
+                          "Jan\n2022", "", "", "", "May", "", "", "", "Sep", "", "", "", 
+                          "Jan\n2023", "", "", "", "May", "", "", "", "Sep", "", "", "",
+                          "Jan\n2024", "", "", "", "May")
+  ) +
   scale_y_continuous(name = paste0("Precipitation [mm],\n", precip_bestLag, "-day sum")) +
+  theme(axis.title.x = element_blank()) +
+  guides(x = guide_axis(minor.ticks = TRUE))
+
+p_time_precip_daily <-
+  ggplot(df_join, aes(x = Date, y = precip_mm)) +
+  geom_line() +
+  scale_x_date(name = "Date", 
+               limits = c(ymd("2021-05-01"), ymd("2024-05-21")), 
+               expand = c(0,0), 
+               breaks = seq(ymd("2021-05-01"), ymd("2024-05-01"), by = "1 month"),
+               minor_breaks = NULL,
+               labels = c("May\n2021", "", "", "", "Sep", "", "", "", 
+                          "Jan\n2022", "", "", "", "May", "", "", "", "Sep", "", "", "", 
+                          "Jan\n2023", "", "", "", "May", "", "", "", "Sep", "", "", "",
+                          "Jan\n2024", "", "", "", "May")
+  ) +
+  scale_y_continuous(name = "Precipitation [mm],\nDaily",
+                     expand = expansion(mult = c(0, 0.05))) +
   theme(axis.title.x = element_blank()) +
   guides(x = guide_axis(minor.ticks = TRUE))
 
 p_time_ET <-
   ggplot(df_join, aes(x = Date, y = ET_mm_bestLag)) +
   geom_line() +
-  scale_x_date(name = "Date [daily]", limits = c(ymd("2021-05-01"), ymd("2024-05-21")), expand = c(0,0), date_minor_breaks = "1 month") +
+  scale_x_date(name = "Date", 
+               limits = c(ymd("2021-05-01"), ymd("2024-05-21")), 
+               expand = c(0,0), 
+               breaks = seq(ymd("2021-05-01"), ymd("2024-05-01"), by = "1 month"),
+               minor_breaks = NULL,
+               labels = c("May\n2021", "", "", "", "Sep", "", "", "", 
+                          "Jan\n2022", "", "", "", "May", "", "", "", "Sep", "", "", "", 
+                          "Jan\n2023", "", "", "", "May", "", "", "", "Sep", "", "", "",
+                          "Jan\n2024", "", "", "", "May")
+  ) +
   scale_y_continuous(name = paste0("ET [mm],\n", ET_bestLag, "-day sum")) +
   guides(x = guide_axis(minor.ticks = TRUE))
 
+p_time_ET_daily <-
+  ggplot(df_join, aes(x = Date, y = ET_mm_ensemble)) +
+  geom_line() +
+  scale_x_date(name = "Date", 
+               limits = c(ymd("2021-05-01"), ymd("2024-05-21")), 
+               expand = c(0,0), 
+               breaks = seq(ymd("2021-05-01"), ymd("2024-05-01"), by = "1 month"),
+               minor_breaks = NULL,
+               labels = c("May\n2021", "", "", "", "Sep", "", "", "", 
+                          "Jan\n2022", "", "", "", "May", "", "", "", "Sep", "", "", "", 
+                          "Jan\n2023", "", "", "", "May", "", "", "", "Sep", "", "", "",
+                          "Jan\n2024", "", "", "", "May")
+  ) +
+  scale_y_continuous(name = "ET [mm],\nDaily") +
+  guides(x = guide_axis(minor.ticks = TRUE))
+
+## ALTERNATE: SEPARATE INTO TWO PANELS
+
 (p_time_STIC + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.04, 0.98)) +
+    p_time_precip_daily + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.04, 0.98)) +
+    p_time_ET_daily + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.005, 0.98))) +
+  plot_layout(design = 
+                "AAAAAA
+                 BBBBBB
+                 CCCCCC") +
+  plot_annotation(tag_levels = "a", tag_prefix = "(", tag_suffix = ")")
+ggsave(file.path("figures+tables", "Figure7_TimeseriesPrcWet-DailyData.png"),
+       width = 190, height = 120, units = "mm")
+
+
+(p_r2_precip + theme(plot.tag = element_text(hjust = 1, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.99, 0.98)) +
+    p_r2_ET + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.01, 0.98)) +
+    p_scatter + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.01, 0.98)) +
+    p_time_precip + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.005, 0.98)) +
+    p_time_ET + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.005, 0.98))) +
+  plot_layout(design = 
+                "AABBCC
+                 DDDDDD
+                 EEEEEE") +
+  plot_annotation(tag_levels = "a", tag_prefix = "(", tag_suffix = ")")
+ggsave(file.path("figures+tables", "Figure8_TimeseriesPrcWet-ModelFit.png"),
+       width = 190, height = 155, units = "mm")
+
+
+## ALTERNATE - ALL 8 PANELS IN ONE PLOT
+(p_time_STIC + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.04, 0.98)) +
+    p_time_precip_daily + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.005, 0.98)) +
+    p_time_ET_daily + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.005, 0.98)) +
     p_r2_precip + theme(plot.tag = element_text(hjust = 1, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.99, 0.98)) +
     p_r2_ET + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.01, 0.98)) +
     p_scatter + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.01, 0.98)) +
@@ -241,10 +277,11 @@ p_time_ET <-
     p_time_ET + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.005, 0.98))) +
   plot_layout(design = 
                 "AAAAAA
-                 BBCCDD
-                 EEEEEE
-                 FFFFFF") +
+                 BBBBBB
+                 CCCCCC
+                 DDEEFF
+                 GGGGGG
+                 HHHHHH") +
   plot_annotation(tag_levels = "a", tag_prefix = "(", tag_suffix = ")")
-ggsave(file.path("figures+tables", "Figure7_TimeseriesPrcWet-6panelCombined.png"),
-       width = 190, height = 210, units = "mm")
-
+ggsave(file.path("figures+tables", "Figure7_TimeseriesPrcWet-8panelCombined.png"),
+       width = 190, height = 240, units = "mm")
