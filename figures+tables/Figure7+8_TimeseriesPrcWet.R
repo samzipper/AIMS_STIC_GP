@@ -238,7 +238,7 @@ p_time_ET_daily <-
   scale_y_continuous(name = "ET [mm],\nDaily") +
   guides(x = guide_axis(minor.ticks = TRUE))
 
-## ALTERNATE: SEPARATE INTO TWO PANELS
+## SEPARATE INTO TWO PANELS
 
 (p_time_STIC + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.04, 0.98)) +
     p_time_precip_daily + theme(plot.tag = element_text(hjust = 0, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.04, 0.98)) +
@@ -250,6 +250,8 @@ p_time_ET_daily <-
   plot_annotation(tag_levels = "a", tag_prefix = "(", tag_suffix = ")")
 ggsave(file.path("figures+tables", "Figure7_TimeseriesPrcWet-DailyData.png"),
        width = 190, height = 120, units = "mm")
+ggsave(file.path("figures+tables", "Figure7_TimeseriesPrcWet-DailyData.pdf"),
+       width = 190, height = 120, units = "mm", device = cairo_pdf)
 
 
 (p_r2_precip + theme(plot.tag = element_text(hjust = 1, vjust = 1), plot.tag.location = "panel", plot.tag.position = c(0.99, 0.98)) +
@@ -264,6 +266,8 @@ ggsave(file.path("figures+tables", "Figure7_TimeseriesPrcWet-DailyData.png"),
   plot_annotation(tag_levels = "a", tag_prefix = "(", tag_suffix = ")")
 ggsave(file.path("figures+tables", "Figure8_TimeseriesPrcWet-ModelFit.png"),
        width = 190, height = 155, units = "mm")
+ggsave(file.path("figures+tables", "Figure8_TimeseriesPrcWet-ModelFit.pdf"),
+       width = 190, height = 157, units = "mm", device = cairo_pdf)
 
 
 ## ALTERNATE - ALL 8 PANELS IN ONE PLOT
@@ -283,5 +287,5 @@ ggsave(file.path("figures+tables", "Figure8_TimeseriesPrcWet-ModelFit.png"),
                  GGGGGG
                  HHHHHH") +
   plot_annotation(tag_levels = "a", tag_prefix = "(", tag_suffix = ")")
-ggsave(file.path("figures+tables", "Figure7_TimeseriesPrcWet-8panelCombined.png"),
-       width = 190, height = 240, units = "mm")
+#ggsave(file.path("figures+tables", "Figure7_TimeseriesPrcWet-8panelCombined.png"),
+#       width = 190, height = 240, units = "mm")

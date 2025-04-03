@@ -42,7 +42,7 @@ df_classificationAccuracy[which.max(df_classificationAccuracy$accuracy_prc), ]
 condUncal_thres <- df_classificationAccuracy$condUncal_thres[which.min(df_classificationAccuracy$errorBalance)]
 df_classificationAccuracy[df_classificationAccuracy$condUncal_thres == condUncal_thres, ]
 
-
+## Figure 4: sensitivity to threshold
 df_classificationAccuracy |> 
   dplyr::select(-errorBalance) |> 
   pivot_longer(-condUncal_thres) |> 
@@ -71,8 +71,10 @@ df_classificationAccuracy |>
          color = guide_legend())
 ggsave(file.path("figures+tables", "Figure4_OptimalThreshold.png"),
        width = 95, height = 110, units = "mm")
+ggsave(file.path("figures+tables", "Figure4_OptimalThreshold.pdf"),
+       width = 95, height = 110, units = "mm", device = cairo_pdf)
 
-## Figure 6: validation performance
+## Figure 5: validation performance
 # plot confusion matrix
 df_confusion <- 
   df_validate |> 
@@ -129,6 +131,8 @@ p_SpC <-
   theme(plot.tag = element_text(face = "plain"))
 ggsave(file.path("figures+tables", "Figure5_Validation.png"),
        width = 95, height = 190, units = "mm")
+ggsave(file.path("figures+tables", "Figure5_Validation.pdf"),
+       width = 95, height = 190, units = "mm", device = cairo_pdf)
 
 # get fit stats
 lm(SpC_STIC ~ SpC_obs, df_validate) |> summary()
