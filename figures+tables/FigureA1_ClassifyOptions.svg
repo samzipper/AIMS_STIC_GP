@@ -31,10 +31,10 @@
      inkscape:cy="212.89308"
      inkscape:window-width="1920"
      inkscape:window-height="1129"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g2" />
   <defs
      id="defs1">
     <marker
@@ -220,9 +220,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.43824px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-0);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="97.584449"
          y="540.20218"
-         id="tspan2"><tspan
+         id="tspan46"><tspan
            style="font-style:italic;fill:#000000;stroke:none"
-           id="tspan1">classify_wetdry 'method' option: 'absolute'</tspan></tspan></text>
+           id="tspan45">classify_wetdry 'method' option: 'absolute'</tspan></tspan></text>
     <g
        id="g4"
        transform="matrix(2.3384671,0,0,2.3384671,-185.54473,-262.01377)">
@@ -233,9 +233,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
            x="85.565633"
            y="543.13587"
-           id="tspan4"><tspan
+           id="tspan48"><tspan
              style="fill:#000000;stroke:none"
-             id="tspan3">datetime</tspan></tspan></text>
+             id="tspan47">datetime</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,68.547228,-18.778635)"
@@ -243,9 +243,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-01);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
            x="92.539685"
            y="543.13587"
-           id="tspan6"><tspan
+           id="tspan50"><tspan
              style="fill:#e6194b;stroke:none"
-             id="tspan5">dry</tspan></tspan></text>
+             id="tspan49">dry</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,68.569695,-22.291762)"
@@ -253,9 +253,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-01-9);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
            x="92.063612"
            y="543.13587"
-           id="tspan8"><tspan
+           id="tspan52"><tspan
              style="fill:#0082c8;stroke:none"
-             id="tspan7">wet</tspan></tspan></text>
+             id="tspan51">wet</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0,-0.26458333,0.26458333,0,-62.134254,149.40879)"
@@ -263,9 +263,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-1-6-0);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
            x="84.654562"
            y="543.13587"
-           id="tspan10"><tspan
+           id="tspan54"><tspan
              style="fill:#000000;stroke:none"
-             id="tspan9">SpC or condUncal</tspan></tspan></text>
+             id="tspan53">SpC or condUncal</tspan></tspan></text>
       <path
          style="fill:none;fill-opacity:1;stroke:#0082c8;stroke-width:0.226288;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          d="m 82.365735,126.80989 h 2.597583 v -10.57898 h 4.415891 l 0.779278,9.27486 1.142933,-8.74853 h 1.714403 l 0.459927,1.79532 0.57911,-3.75151 h 1.610498 v 12.28054 h 2.337829"
@@ -300,14 +300,14 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-1-5);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="50.77901"
          y="543.13587"
-         id="tspan12"><tspan
+         id="tspan56"><tspan
            style="fill:#000000;stroke:none"
-           id="tspan11">threshold (defined as </tspan></tspan><tspan
+           id="tspan55">threshold (defined as </tspan></tspan><tspan
          x="49.991123"
          y="550.26306"
-         id="tspan14"><tspan
+         id="tspan58"><tspan
            style="fill:#000000;stroke:none"
-           id="tspan13">percent of max value)</tspan></tspan></text>
+           id="tspan57">percent of max value)</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.61871941,0,0,0.61871941,11.184569,-213.78231)"
@@ -315,19 +315,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-1-5-48);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="56.887329"
          y="543.13587"
-         id="tspan16"><tspan
+         id="tspan60"><tspan
            style="fill:#000000;stroke:none"
-           id="tspan15">y-intercept value, used as </tspan></tspan><tspan
+           id="tspan59">y-intercept value, used as </tspan></tspan><tspan
          x="57.680784"
          y="550.26306"
-         id="tspan18"><tspan
+         id="tspan62"><tspan
            style="fill:#000000;stroke:none"
-           id="tspan17">classification threshold in </tspan></tspan><tspan
+           id="tspan61">classification threshold in </tspan></tspan><tspan
          x="67.205028"
          y="557.39026"
-         id="tspan20"><tspan
+         id="tspan64"><tspan
            style="fill:#000000;stroke:none"
-           id="tspan19">'absolute' method</tspan></tspan></text>
+           id="tspan63">'absolute' method</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.61871941,0,0,0.61871941,3.1709664,-240.72799)"
@@ -335,9 +335,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-1-5-48-8);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="60.961683"
          y="543.13587"
-         id="tspan22"><tspan
+         id="tspan66"><tspan
            style="fill:#000000;stroke:none"
-           id="tspan21">Fitted calibration curve</tspan></tspan></text>
+           id="tspan65">Fitted calibration curve</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.61871941,0,0,0.61871941,14.962673,-310.37678)"
@@ -345,14 +345,14 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-1-5-2);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="50.808862"
          y="543.13587"
-         id="tspan24"><tspan
+         id="tspan68"><tspan
            style="fill:#000000;stroke:none"
-           id="tspan23">threshold (defined in units </tspan></tspan><tspan
+           id="tspan67">threshold (defined in units </tspan></tspan><tspan
          x="52.399948"
          y="550.26306"
-         id="tspan26"><tspan
+         id="tspan70"><tspan
            style="fill:#000000;stroke:none"
-           id="tspan25">of classification variable)</tspan></tspan></text>
+           id="tspan69">of classification variable)</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.61871941,0,0,0.61871941,2.3075699,-285.6039)"
@@ -360,9 +360,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-1-5-4);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="70.986942"
          y="543.13587"
-         id="tspan28"><tspan
+         id="tspan72"><tspan
            style="fill:#000000;stroke:none"
-           id="tspan27">max observed value</tspan></tspan></text>
+           id="tspan71">max observed value</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(1.446855,0,0,1.446855,-140.79756,-735.69389)"
@@ -370,9 +370,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.43824px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-0-6);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="98.127339"
          y="540.20218"
-         id="tspan30"><tspan
+         id="tspan74"><tspan
            style="font-style:italic;fill:#000000;stroke:none"
-           id="tspan29">classify_wetdry 'method' option: 'percent'</tspan></tspan></text>
+           id="tspan73">classify_wetdry 'method' option: 'percent'</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(1.446855,0,0,1.446855,-138.44628,-692.1059)"
@@ -380,9 +380,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.43824px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-0-6-3);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="96.502242"
          y="540.20218"
-         id="tspan32"><tspan
+         id="tspan76"><tspan
            style="font-style:italic;fill:#000000;stroke:none"
-           id="tspan31">classify_wetdry 'method' option: 'y-intercept'</tspan></tspan></text>
+           id="tspan75">classify_wetdry 'method' option: 'y-intercept'</tspan></tspan></text>
     <g
        id="g2"
        transform="matrix(2.3384671,0,0,2.3384671,-185.52595,-273.12635)">
@@ -391,11 +391,11 @@
          transform="matrix(0.26458333,0,0,0.26458333,64.729156,27.886508)"
          id="text28-1-5-0-2"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-5-6);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
-           x="83.029361"
+           x="90.954167"
            y="543.13587"
-           id="tspan34"><tspan
+           id="tspan78"><tspan
              style="fill:#000000;stroke:none"
-             id="tspan33">condUncal</tspan></tspan></text>
+             id="tspan77">SpC</tspan></tspan></text>
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.226288;stroke-dasharray:0.226288, 0.452575;stroke-dashoffset:0;stroke-opacity:1"
          d="M 82.283923,169.00061 H 99.073769"
@@ -405,11 +405,11 @@
          transform="matrix(0,-0.26458333,0.26458333,0,-62.142286,191.93742)"
          id="text28-5-1-6-2-5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-1-6-0-5-2);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
-           x="90.357694"
+           x="94.3194"
            y="543.13587"
-           id="tspan36"><tspan
+           id="tspan80"><tspan
              style="fill:#000000;stroke:none"
-             id="tspan35">SpC standard</tspan></tspan></text>
+             id="tspan79">condUncal</tspan></tspan></text>
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.226288;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          d="m 82.359609,156.85009 v 13.06388 h 15.869677"
@@ -454,9 +454,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-5);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
            x="85.565633"
            y="543.13587"
-           id="tspan38"><tspan
+           id="tspan82"><tspan
              style="fill:#000000;stroke:none"
-             id="tspan37">datetime</tspan></tspan></text>
+             id="tspan81">datetime</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,68.547228,-0.1621794)"
@@ -464,9 +464,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-01-4);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
            x="92.539685"
            y="543.13587"
-           id="tspan40"><tspan
+           id="tspan84"><tspan
              style="fill:#e6194b;stroke:none"
-             id="tspan39">dry</tspan></tspan></text>
+             id="tspan83">dry</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,68.569695,-3.6753064)"
@@ -474,9 +474,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-0-5-01-9-0);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
            x="92.063612"
            y="543.13587"
-           id="tspan42"><tspan
+           id="tspan86"><tspan
              style="fill:#0082c8;stroke:none"
-             id="tspan41">wet</tspan></tspan></text>
+             id="tspan85">wet</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0,-0.26458333,0.26458333,0,-62.259316,168.02525)"
@@ -484,9 +484,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.70174px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect28-1-6-0-5);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
            x="84.654562"
            y="543.13587"
-           id="tspan44"><tspan
+           id="tspan88"><tspan
              style="fill:#000000;stroke:none"
-             id="tspan43">SpC or condUncal</tspan></tspan></text>
+             id="tspan87">SpC or condUncal</tspan></tspan></text>
       <path
          style="fill:none;fill-opacity:1;stroke:#0082c8;stroke-width:0.226288;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          d="m 82.296322,145.43261 h 2.597583 v -10.57898 h 4.41589 l 0.779278,9.27485 1.142934,-8.74852 h 1.714398 l 0.459927,1.79531 0.57911,-3.7515 h 1.610498 v 12.28053 h 2.337829"
